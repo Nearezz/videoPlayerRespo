@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
+import WebKit
 
-struct Video: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct VideoView: UIViewRepresentable {
+    let videoId: String
+    
+    func makeUIView(context:Context) -> WKWebView {
+        return WKWebView()
     }
-}
-
-#Preview {
-    Video()
+    
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        guard let youtubeURL = URL(string: "https://www.youtube.com/embed/\(videoId)")
+        else {
+            return
+        }
+        
+        uiView.scrollView
+            .isScrollEnabled = false
+        uiView.load(URLRequest(url:youtubeURL))
+    }
 }

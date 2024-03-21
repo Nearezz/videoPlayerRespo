@@ -11,9 +11,10 @@
 		8428BB352BAB1E4600DB63AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB342BAB1E4600DB63AA /* ContentView.swift */; };
 		8428BB372BAB1E4800DB63AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428BB362BAB1E4800DB63AA /* Assets.xcassets */; };
 		8428BB3A2BAB1E4800DB63AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428BB392BAB1E4800DB63AA /* Preview Assets.xcassets */; };
-		8428BB442BAB1E4900DB63AA /* VideoPlayerRespoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB432BAB1E4900DB63AA /* VideoPlayerRespoTests.swift */; };
-		8428BB4E2BAB1E4900DB63AA /* VideoPlayerRespoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB4D2BAB1E4900DB63AA /* VideoPlayerRespoUITests.swift */; };
-		8428BB502BAB1E4900DB63AA /* VideoPlayerRespoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB4F2BAB1E4900DB63AA /* VideoPlayerRespoUITestsLaunchTests.swift */; };
+		8428BB5D2BAB201800DB63AA /* IronMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5C2BAB201800DB63AA /* IronMan.swift */; };
+		8428BB5F2BAB20B700DB63AA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5E2BAB20B700DB63AA /* Video.swift */; };
+		8428BB622BAB23F800DB63AA /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 8428BB612BAB23F800DB63AA /* SwiftySound */; };
+		8428BB6A2BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8428BB692BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,10 @@
 		8428BB362BAB1E4800DB63AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8428BB392BAB1E4800DB63AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8428BB3F2BAB1E4900DB63AA /* VideoPlayerRespoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerRespoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8428BB432BAB1E4900DB63AA /* VideoPlayerRespoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerRespoTests.swift; sourceTree = "<group>"; };
 		8428BB492BAB1E4900DB63AA /* VideoPlayerRespoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerRespoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8428BB4D2BAB1E4900DB63AA /* VideoPlayerRespoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerRespoUITests.swift; sourceTree = "<group>"; };
-		8428BB4F2BAB1E4900DB63AA /* VideoPlayerRespoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerRespoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8428BB5C2BAB201800DB63AA /* IronMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronMan.swift; sourceTree = "<group>"; };
+		8428BB5E2BAB20B700DB63AA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		8428BB692BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Oof - Roblox - QuickSounds.com.mp3"; path = "../Oof - Roblox - QuickSounds.com.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8428BB622BAB23F800DB63AA /* SwiftySound in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +76,8 @@
 		8428BB262BAB1E4600DB63AA = {
 			isa = PBXGroup;
 			children = (
+				8428BB692BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 */,
 				8428BB312BAB1E4600DB63AA /* VideoPlayerRespo */,
-				8428BB422BAB1E4900DB63AA /* VideoPlayerRespoTests */,
-				8428BB4C2BAB1E4900DB63AA /* VideoPlayerRespoUITests */,
 				8428BB302BAB1E4600DB63AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +99,8 @@
 				8428BB342BAB1E4600DB63AA /* ContentView.swift */,
 				8428BB362BAB1E4800DB63AA /* Assets.xcassets */,
 				8428BB382BAB1E4800DB63AA /* Preview Content */,
+				8428BB5C2BAB201800DB63AA /* IronMan.swift */,
+				8428BB5E2BAB20B700DB63AA /* Video.swift */,
 			);
 			path = VideoPlayerRespo;
 			sourceTree = "<group>";
@@ -108,23 +111,6 @@
 				8428BB392BAB1E4800DB63AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8428BB422BAB1E4900DB63AA /* VideoPlayerRespoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8428BB432BAB1E4900DB63AA /* VideoPlayerRespoTests.swift */,
-			);
-			path = VideoPlayerRespoTests;
-			sourceTree = "<group>";
-		};
-		8428BB4C2BAB1E4900DB63AA /* VideoPlayerRespoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8428BB4D2BAB1E4900DB63AA /* VideoPlayerRespoUITests.swift */,
-				8428BB4F2BAB1E4900DB63AA /* VideoPlayerRespoUITestsLaunchTests.swift */,
-			);
-			path = VideoPlayerRespoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +129,9 @@
 			dependencies = (
 			);
 			name = VideoPlayerRespo;
+			packageProductDependencies = (
+				8428BB612BAB23F800DB63AA /* SwiftySound */,
+			);
 			productName = VideoPlayerRespo;
 			productReference = 8428BB2F2BAB1E4600DB63AA /* VideoPlayerRespo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 8428BB262BAB1E4600DB63AA;
+			packageReferences = (
+				8428BB602BAB23F800DB63AA /* XCRemoteSwiftPackageReference "SwiftySound" */,
+			);
 			productRefGroup = 8428BB302BAB1E4600DB63AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8428BB6A2BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 in Resources */,
 				8428BB3A2BAB1E4800DB63AA /* Preview Assets.xcassets in Resources */,
 				8428BB372BAB1E4800DB63AA /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428BB352BAB1E4600DB63AA /* ContentView.swift in Sources */,
+				8428BB5F2BAB20B700DB63AA /* Video.swift in Sources */,
 				8428BB332BAB1E4600DB63AA /* VideoPlayerRespoApp.swift in Sources */,
+				8428BB5D2BAB201800DB63AA /* IronMan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8428BB442BAB1E4900DB63AA /* VideoPlayerRespoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8428BB4E2BAB1E4900DB63AA /* VideoPlayerRespoUITests.swift in Sources */,
-				8428BB502BAB1E4900DB63AA /* VideoPlayerRespoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +574,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8428BB602BAB23F800DB63AA /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamcichy/SwiftySound";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8428BB612BAB23F800DB63AA /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8428BB602BAB23F800DB63AA /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8428BB272BAB1E4600DB63AA /* Project object */;
 }

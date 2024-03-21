@@ -6,16 +6,16 @@
 //
 
 import SwiftUI
+import SwiftySound
+import AVKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            NavigationLink(destination: IronMan(), label: {Text("IronMan").foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)})
         }
-        .padding()
+        
+       
     }
 }
 
