@@ -11,10 +11,12 @@
 		8428BB352BAB1E4600DB63AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB342BAB1E4600DB63AA /* ContentView.swift */; };
 		8428BB372BAB1E4800DB63AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428BB362BAB1E4800DB63AA /* Assets.xcassets */; };
 		8428BB3A2BAB1E4800DB63AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428BB392BAB1E4800DB63AA /* Preview Assets.xcassets */; };
-		8428BB5D2BAB201800DB63AA /* IronMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5C2BAB201800DB63AA /* IronMan.swift */; };
 		8428BB5F2BAB20B700DB63AA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5E2BAB20B700DB63AA /* Video.swift */; };
 		8428BB622BAB23F800DB63AA /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 8428BB612BAB23F800DB63AA /* SwiftySound */; };
 		8428BB6A2BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8428BB692BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 */; };
+		8428BB6E2BB1ADBE00DB63AA /* Typescript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB6D2BB1ADBE00DB63AA /* Typescript.swift */; };
+		8428BB702BB1AEA500DB63AA /* cpp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB6F2BB1AEA500DB63AA /* cpp.swift */; };
+		8428BB722BB1AF1900DB63AA /* Python.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB712BB1AF1900DB63AA /* Python.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +44,11 @@
 		8428BB392BAB1E4800DB63AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8428BB3F2BAB1E4900DB63AA /* VideoPlayerRespoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerRespoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8428BB492BAB1E4900DB63AA /* VideoPlayerRespoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerRespoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8428BB5C2BAB201800DB63AA /* IronMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronMan.swift; sourceTree = "<group>"; };
 		8428BB5E2BAB20B700DB63AA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		8428BB692BAB25E400DB63AA /* Oof - Roblox - QuickSounds.com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Oof - Roblox - QuickSounds.com.mp3"; path = "../Oof - Roblox - QuickSounds.com.mp3"; sourceTree = "<group>"; };
+		8428BB6D2BB1ADBE00DB63AA /* Typescript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typescript.swift; sourceTree = "<group>"; };
+		8428BB6F2BB1AEA500DB63AA /* cpp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpp.swift; sourceTree = "<group>"; };
+		8428BB712BB1AF1900DB63AA /* Python.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Python.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +99,14 @@
 		8428BB312BAB1E4600DB63AA /* VideoPlayerRespo */ = {
 			isa = PBXGroup;
 			children = (
+				8428BB6D2BB1ADBE00DB63AA /* Typescript.swift */,
+				8428BB6F2BB1AEA500DB63AA /* cpp.swift */,
 				8428BB322BAB1E4600DB63AA /* VideoPlayerRespoApp.swift */,
 				8428BB342BAB1E4600DB63AA /* ContentView.swift */,
 				8428BB362BAB1E4800DB63AA /* Assets.xcassets */,
 				8428BB382BAB1E4800DB63AA /* Preview Content */,
-				8428BB5C2BAB201800DB63AA /* IronMan.swift */,
 				8428BB5E2BAB20B700DB63AA /* Video.swift */,
+				8428BB712BB1AF1900DB63AA /* Python.swift */,
 			);
 			path = VideoPlayerRespo;
 			sourceTree = "<group>";
@@ -251,9 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428BB352BAB1E4600DB63AA /* ContentView.swift in Sources */,
+				8428BB722BB1AF1900DB63AA /* Python.swift in Sources */,
 				8428BB5F2BAB20B700DB63AA /* Video.swift in Sources */,
 				8428BB332BAB1E4600DB63AA /* VideoPlayerRespoApp.swift in Sources */,
-				8428BB5D2BAB201800DB63AA /* IronMan.swift in Sources */,
+				8428BB6E2BB1ADBE00DB63AA /* Typescript.swift in Sources */,
+				8428BB702BB1AEA500DB63AA /* cpp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
